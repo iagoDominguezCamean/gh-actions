@@ -5,4 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
-        run: echo "Probando github actions"
+        run: |
+          echo "Probando github actions"
+          echo "Probando varios echos"
