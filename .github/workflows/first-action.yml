@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - 'main'
+    # types: [closed, opened, ...]
   workflow_dispatch:
 jobs:
   test:
