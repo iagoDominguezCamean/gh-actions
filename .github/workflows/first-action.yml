@@ -1,5 +1,10 @@
 name: Test project
-on: [push, workflow_dispatch] # Multiple triggers
+#on: [push, workflow_dispatch]  Multiple triggers
+on:
+  push:
+    branches:
+      - 'main'
+  workflow_dispatch:
 jobs:
   test:
     runs-on: ubuntu-latest
